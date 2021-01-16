@@ -1,0 +1,8 @@
+<div class="card" *ngIf="!!retreivedCV">
+  <img src="{{retreivedCV.path}}" alt="Avatar" style="width:50px; height: 50px">
+  <div class="container">
+    <h4><b>{{retreivedCV.cin}}</b></h4>
+    <h4><b>{{retreivedCV.firstName}} {{retreivedCV.name}}</b></h4>
+    <p>{{retreivedCV.job}}</p>
+  </div>
+</div>

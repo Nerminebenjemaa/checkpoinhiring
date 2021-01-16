@@ -1,0 +1,6 @@
+<div *ngFor="let item of cvs; let i=index">
+  <p (click)="getCvDetails(item)">CV {{i+1}}</p>
+</div>
+
+
+<app-detail [retreivedCV]="selectedCV"></app-detail>
