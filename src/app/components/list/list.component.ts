@@ -9,7 +9,7 @@ import {Personne} from '../../models/Personne';
 export class ListComponent implements OnInit {
 
   cvs: Personne [] = [];
-  selectedCV: Personne [] = [];
+  selectedCV!: Personne;
 
   // cvs: Array<Personne> = [];
 
