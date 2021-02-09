@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { CvComponent } from './components/cv/cv.component';
 import { ListComponent } from './components/list/list.component';
 import { DetailComponent } from './components/detail/detail.component';
+import { HiredCvComponent } from './components/hired-cv/hired-cv.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CvComponent,
     ListComponent,
-    DetailComponent
+    DetailComponent,
+    HiredCvComponent
   ],
   imports: [
     BrowserModule,
